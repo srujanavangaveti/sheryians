@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% load static %} {% block title %}
+<title>Request callback | Sheriyans</title>
+{% endblock title %} {% block css %}
+<link rel="stylesheet" href="{% static 'callback.css' %}" />
+{% endblock css %} {% block js %}
+<script src="{% static 'callback.js' %}"></script>
+{% endblock js %} {% block block %} {% block body %}
+
+<div class="modal">
+  <div class="callback-form">
+    <h2>Request a Callback</h2>
+    <p>Fill the form below to request a callback from our team.</p>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" placeholder="Name" />
+
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" placeholder="📞 Phone" />
+
+      <label for="datetime">Select Date and Time</label>
+      <input type="datetime-local" id="datetime" />
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>
+
+{% endblock body %} {% endblock block %}

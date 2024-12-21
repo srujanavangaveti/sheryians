@@ -1,0 +1,107 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    <title>Sheryians coding school|Learn Coding in India</title>
+    {% endblock title %}
+    {% block css %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+{% endblock css%}
+{% block body %}
+    <pre id="middle">We only <span id="teach">teach</span>
+   what we are really 
+  really good at.</pre>
+            <pre id="side">Get ready to <span>accelerate your</span> 
+carrer with customized courses 
+and leave your mark in tech 
+industry</pre>
+            
+                <button> <a href="{% url 'myapp:courses' %}" id="courses">Check Cources make an impact</a>
+                </button>
+            <div id="starts"><div class="start"><h1>25K+</h1><p>Students taught</p>
+            </div>
+            <div class="start"><h1>20+</h1><p>Instructors</p>
+            </div>
+            <div class="start"><h1>431K+</h1><p>YouTube Subs.</p>
+            </div></div>
+            <p style="color: white;font-size: 50px;text-align: center;margin-top: 50px;">
+                We do whatever it takes to help you<br>
+                <span style="color: aqua;">understand the concepts.</span>
+            </p>
+            <center><iframe width="952" height="535" src="https://www.youtube.com/embed/60SRAWmMXyc" title="You Are Not Yet Ready | Placements | Open Source" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+            <button style="background-color: aqua;"><a href="" style="color: black;text-decoration: none;font-size: 20px;">Explore Free Learning</a></button>
+          <p style="color: white;font-size: 50px;margin-top: 10%;margin-left: 60px;">Cources Offered.</p>
+          <div class="container">
+            <!-- Course Card 1 -->
+            <div style="height: 400px;width: 100%;background-color: transparent;"><div class="card" style="float: left;margin-left: 60px;color: white; background-color: rgba(44, 41, 41, 0.783);height: 400px;width:27%; float: left;">
+              <img src="{% static 'pic1.webp' %}" style="width: 100%;" alt="Front-End Course" class="card-image">
+              <h2 style="margin-left: 7%;">Front-End Domination: Create Anything with Code</h2>
+              <div style="background-color: rgba(92, 87, 87, 0.959);width: 14%;margin-left: 7%;margin-top: 7%;"><p>HINDI</p></div>
+              <p style="color: aqua;margin-left: 7%;margin-top: 15%;">Limited Time Period</p>
+              <p style="margin-left: 7%;"> &#8377;4999 <span style="text-decoration: line-through;margin-left: 7%;color: rgba(92, 87, 87, 0.959) ;">&#8377;9999</span>
+            <span style="background-color: aliceblue;color: black;margin-left: 30%;">50% OFF</span></p>
+            </div>
+            
+            <div class="card" style="float: left;margin-left: 50px;color: white; background-color: rgba(44, 41, 41, 0.783);height: 400px;width:27%; float: left;">
+                <img src="{% static 'pic2.webp' %}" style="width: 100%;" alt="Front-End Course" class="card-image">
+                <h2 style="margin-left: 7%;">Back-End Domination: Create Efficient Back-End</h2>
+                <div style="background-color: rgba(92, 87, 87, 0.959);width: 15%;margin-left: 7%;margin-top: 7%;"><p>HINDI</p></div>
+                <p style="color: aqua;margin-left: 7%;margin-top: 15%;">Limited Time Period</p>
+                <p style="margin-left: 7%;"> &#8377;5999 <span style="text-decoration: line-through;margin-left: 7%;color: rgba(92, 87, 87, 0.959) ;">&#8377;11999</span>
+                    <span style="background-color: aliceblue;color: black;margin-left: 30%;">50% OFF</span></p>
+            </div>
+              <div class="card" style="float: left;margin-left: 50px;color: white; background-color: rgba(44, 41, 41, 0.783);height: 400px;width:27%; float: left;">
+                <img src="{% static 'pic3.webp' %}" style="width: 100%;" alt="Front-End Course" class="card-image">
+                <h2 style="margin-left: 7%;">Apptitude & Reasoning for Campus Placement</h2>
+                <div style="background-color: rgba(92, 87, 87, 0.959);width: 25%;margin-left: 7%;margin-top: 7%;"><p>HINGLISH</p></div>
+                <p style="color: aqua;margin-left: 7%;margin-top: 15%;">Black Friday Sale</p>
+                <p style="margin-left: 7%;"> &#8377;999 <span style="text-decoration: line-through;margin-left: 7%;color: rgba(92, 87, 87, 0.959) ;">&#8377;1499</span>
+                    <span style="background-color: aliceblue;color: black;margin-left: 30%;">33% OFF</span></p>
+               
+            </div></div>
+            <div style="height: 30px;width: 100%;"><div style="float: left; margin-left: 6%;margin-top: 2%; width: 25%; background-color: aqua;text-align: center; height: 30px;font-size: 20px;"><a href="" style="text-decoration: none;color:black;">View Details</a></div>
+            <div style="float: left; margin-left: 6%;margin-top: 2%; width: 25%; background-color: aqua;text-align: center; height: 30px;font-size: 20px;"><a href="" style="text-decoration: none;color:black;">View Details</a></div>
+            <div style="float: left; margin-left: 6%;margin-top: 2%; width: 25%; background-color: aqua;text-align: center; height: 30px;font-size: 20px;"><a href="" style="text-decoration: none;color:black;">View Details</a></div>
+        </div>
+        <div style="height: 500px;width: 100%;background-color:transparent;"><div class="card" style="float: left;margin-left: 50px; margin-top: 5%;color: white; background-color: rgba(44, 41, 41, 0.783);height: 400px;width:27%; float: left;">
+                <img src="{% static 'pic4.webp' %}" style="width: 100%;" alt="Front-End Course" class="card-image">
+                <h2 style="margin-left: 7%;">Java & DSA Domination</h2>
+                <div style="background-color: rgba(92, 87, 87, 0.959);width: 25%;margin-left: 7%;margin-top: 7%;"><p>HINGLISH</p></div>
+                <p style="color: aqua;margin-left: 7%;margin-top: 15%;">Limited Day Discount</p>
+                <p style="margin-left: 7%;"> &#8377;4999 <span style="text-decoration: line-through;margin-left: 7%;color: rgba(92, 87, 87, 0.959) ;">&#8377;9999</span>
+                    <span style="background-color: aliceblue;color: black;margin-left: 30%;">50% OFF</span></p>
+               
+            </div>
+            <div class="card" style="margin-left: 50px; margin-top: 5%; color: white; background-color: rgba(44, 41, 41, 0.783);height: 400px;width:27%; float: left;">
+                <img src="{% static 'pic5.webp' %}" style="width: 100%;" alt="Front-End Course" class="card-image">
+                <h2 style="margin-left: 7%;">Three.js Domination</h2>
+                <div style="background-color: rgba(92, 87, 87, 0.959);width: 15%;margin-left: 7%;margin-top: 7%;"><p>HINDI</p></div>
+                <p style="color: aqua;margin-left: 7%;margin-top: 15%;">Black Friday Sale</p>
+                <p style="margin-left: 7%;"> &#8377;2499 <span style="text-decoration: line-through;margin-left: 7%;color: rgba(92, 87, 87, 0.959) ;">&#8377;3500</span>
+                    <span style="background-color: aliceblue;color: black;margin-left: 30%;">29% OFF</span></p>
+               
+            </div>
+        
+            <div class="card" style="margin-left: 50px; margin-top: 5%; color: white; background-color:transparent;height: 400px;width:27%; float: left;">
+                <!-- <img src="{% static 'pic5.webp' %}" style="width: 100%;" alt="Front-End Course" class="card-image">
+                <h2 style="margin-left: 7%;">Three.js Domination</h2>
+                <div style="background-color: rgba(92, 87, 87, 0.959);width: 15%;margin-left: 7%;margin-top: 7%;"><p>HINDI</p></div>
+                <p style="color: aqua;margin-left: 7%;margin-top: 15%;">Black Friday Sale</p>
+                <p style="margin-left: 7%;"> &#8377;2499 <span style="text-decoration: line-through;margin-left: 7%;color: rgba(92, 87, 87, 0.959) ;">&#8377;3500</span>
+                    <span style="background-color: aliceblue;color: black;margin-left: 30%;">29% OFF</span></p> -->
+               
+            </div></div>
+            
+            <div style="height: 60px;width: 100%;">
+            <div style="float: left; margin-left: 5%;margin-top: 2%; width: 25%; background-color: aqua;text-align: center; height: 30px;font-size: 20px;"><a href="" style="text-decoration: none;color:black;">View Details</a></div>
+            <div style="float: left; margin-left: 6%;margin-top: 2%; width: 25%; background-color: aqua;text-align: center; height: 30px;font-size: 20px;"><a href="" style="text-decoration: none;color:black;">View Details</a></div>
+        </div>
+        
+        <p style="text-align: center;font-size: 50px;color: white; margin-top: 10%;">Top Companies our students<br> working with</p>
+            
+        
+            <img src="{% static 'logo1.webp' %}" alt="" style="height:300px;width: 90%;margin-left: 5%;">
+            
+            <button style="background-color: aqua;"><a href="" style="font-size: 30px;color: black;text-decoration: none;">Explore Cources</a></button>
+           
+        
+          {% endblock body %}      

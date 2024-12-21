@@ -1,0 +1,48 @@
+#middle{
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 30px;
+    line-height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#teach{
+    color: aqua;
+}
+
+
+button{
+    background-color: aqua;
+    height: 40px;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 5%;
+    
+}
+#courses{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+#side{
+    color: white;
+    margin-left:80%;
+}
+#starts{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+.start{
+    text-align: center;
+}
+.start h1{
+    font-size:2rem;
+    color: white;
+}
+.start p{
+    font-size: 1rem;
+    color: white;
+}
